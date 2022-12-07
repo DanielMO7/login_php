@@ -1,9 +1,8 @@
-<?php 
-	session_start();
+<?php
+session_start();
 
-	session_unset();
+session_unset();
 
-	session_destroy();
+session_destroy();
 
-	header('Location: /php-login-tienda');
- ?>
+header('Location: /php-login-tienda');
